@@ -1,4 +1,5 @@
-# GitHub Dark theme for Stylish
+# GitHub Dark [![star this repo](http://github-svg-buttons.herokuapp.com/star.svg?user=StylishThemes&repo=GitHub-Dark)](http://github.com/StylishThemes/GitHub-Dark) [![fork this repo](http://github-svg-buttons.herokuapp.com/fork.svg?user=StylishThemes&repo=GitHub-Dark)](http://github.com/StylishThemes/GitHub-Dark/fork)
+
 - Install from [userstyles.org](http://userstyles.org/styles/37035) (with customization options) or [manually](https://raw.githubusercontent.com/StylishThemes/GitHub-Dark/master/github-dark.css).
 - Stylish is available for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/2108/), [Chrome](https://chrome.google.com/extensions/detail/fjnbnpbmkenffdnngjfgmeleoegfcffe) and [Opera](https://addons.opera.com/en/extensions/details/stylish-for-opera/).
 - Use [this demo](http://StylishThemes.github.io/GitHub-Dark/) to visualize the different code color schemes.
@@ -40,6 +41,49 @@ Thanks to all that have [contributed](https://github.com/StylishThemes/GitHub-Da
 ## Changelog
 
 See the [full changelog](https://github.com/StylishThemes/GitHub-Dark/wiki).
+
+#### Version 1.8.31 (8/22/2014)
+
+* Global:
+  * Unify box header border
+  * Move all #111 styles to #222
+  * Make inline code background brighter
+  * Tweak search scope field
+  * Tweak footer logo
+  * Fix tip code background
+  * Fix keyboard shortcuts
+  * Change input & button borders to #444
+  * Fix SHA borders
+  * Style disabled checkboxes too
+* Readme:
+  * Add star/fork buttons
+  * Move buttons besides name
+* Diffs
+  * Let theme background work on diffs
+  * Fix new line comment icons
+* Repo view:
+  * Fix language summary & box borders
+  * Tweak social counter border
+* Markdown:
+  * Use #282828 for all inline code blocks
+  * Slightly darker inline code blocks
+* Search box: fix scope badge color
+* Frontpage: Minor tweaks
+* Audit log:
+  * Various fixes
+  * Fix border on organization page
+* Options:
+  * Fix borders/text in billing section
+  * Fix API token scope colors
+* Help page: Fix inline code, tables, search form
+* Branches
+  * Fix compare button
+  * Remove ugly bold font on the infobar
+* User profiles: Fix stat count color and hover
+* Pulse: Update text & borders
+* Explore page: Fix grid border
+* Header: Tweaks for new notification icon
+* Code: Update line number highlighting from location hash
 
 #### Version 1.8.30 (8/16/2014)
 
@@ -96,16 +140,3 @@ See the [full changelog](https://github.com/StylishThemes/GitHub-Dark/wiki).
 
 * Code view: Slightly brighten line numbers
 * Global: Change selection color to grey
-
-#### Version 1.8.28 (8/9/2014)
-
-* Code view:
-  * Fix plaintext color
-  * Update line number color & line number highlighting. Fixes [issue #158](https://github.com/StylishThemes/GitHub-Dark/issues/158)
-  * Change tab size to 4 when installing by hand. Fixes [issue #159](https://github.com/StylishThemes/GitHub-Dark/issues/159)
-  * Fix inline comment form
-* Ace Editor:
-  * Fix active row highlight
-  * Lots of tweaks
-* Global: Tweak borders on form elements
-* Header: Simplify styling rules
