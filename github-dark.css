@@ -1,7 +1,7 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 @namespace svg url(http://www.w3.org/2000/svg);
 @-moz-document regexp("^https?://((gist|guides|help|status|developer)\.)?github\.com((?!generated_pages\/preview).)*$"), domain("render.githubusercontent.com") {
-/* Github Dark Theme v1.8.32 (8/23/2014)
+/* Github Dark Theme v1.8.33 (8/25/2014)
  * https://github.com/StylishThemes/GitHub-Dark
  * http://userstyles.org/styles/37035
  * License: http://sam.zoy.org/wtfpl/
@@ -220,7 +220,7 @@
   .timeline-commits .commit-meta .octicon, .file .meta-divider, .avatar-stack.multiple-avatars:before,
   #feedHandler, .discussion-sidebar-item .thread-subscription-status, .boxed-group.application-show-group .logo-upload,
   .diagram-icon-small, .commits-listing .commit-group-title .octicon-git-commit, #readme .highlight,
-  .ace-github, .add-member-team-list.table-list, .theme-picker, .avatar-stack .avatar {
+  .ace-github, .add-member-team-list.table-list, .theme-picker, .avatar-stack .avatar, .boxed-group {
     background: transparent !important;
   }
   /* Redeem Page */
@@ -345,7 +345,8 @@
   .table-list-bordered .table-list-cell:first-child, .table-list-bordered .table-list-cell:last-child, .table-list-cell,
   .table-list, .table-list-header, .blankslate, .labels-list-item, .subnav-divider-right, .subnav-bordered,
   .content table th, #search-results li, .ace_gutter, .subhead, #pages-composer, .render-bar, #gollum-editor-help,
-  #gollum-editor-help-parent, #gollum-editor-help-list, .markdown-format code, .auth-section, .commit-sha {
+  #gollum-editor-help-parent, #gollum-editor-help-list, .markdown-format code, .auth-section, .commit-sha,
+  .comment-body {
     border-color: #333 !important;
   }
   .pagination a, .pagination span.gap, .discussion-item-icon, .date:after {
@@ -461,14 +462,14 @@
   .setup-form .setup-plans, .prose-diff > .markdown-body, .revision .gu, .tree-browser td, .tree-browser .alt td,
   .branches .branch-summary, .branches .no-results-message, .simple-box-footer, .team-grid .team, .commit-group,
   .blankslate, .content table tr, #search-results, table.files, .mergeable, .org-module, .org-add-footer, .fullscreen-overlay,
-  .commit-tease, .branch-infobar, .table-list-header, table.capped-list tr:nth-child(2n), .boxed-group,
+  .commit-tease, .branch-infobar, .table-list-header, table.capped-list tr:nth-child(2n),
   #gollum-editor-help-wrapper, .integrations-quality, .showcase-featured .mo-info .featured-grid-outer, .collection-card {
     background: #181818 !important;
   }
   .markdown-body table tr {
     background: #141414 !important;
   }
-  .file-diff-line-expanded td {
+  .blob-expanded .blob-num, .blob-expanded .blob-code {
     background: #1b1b1b !important;
   }
   .social-count:before {
